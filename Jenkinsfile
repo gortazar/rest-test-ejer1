@@ -6,4 +6,8 @@ node {
   stage("Test") {
     sh 'echo bye'
   }
+
+  stage("Security test") {
+    sh 'echo vulnerabilities'
+  }
 }
