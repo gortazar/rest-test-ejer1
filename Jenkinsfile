@@ -9,5 +9,6 @@ node {
 
   stage("Security test") {
     sh 'echo vulnerabilities'
+    sh 'ls -la'
   }
 }
